@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E14559D182824A4006DEB79 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14559C182824A4006DEB79 /* WebViewController.m */; };
+		6E9000A21821B9D1007A4A71 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E9000A11821B9D1007A4A71 /* treehouse.png */; };
 		6EBE69AE182067B700FA2F91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE69AD182067B700FA2F91 /* Foundation.framework */; };
 		6EBE69B0182067B700FA2F91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE69AF182067B700FA2F91 /* CoreGraphics.framework */; };
 		6EBE69B2182067B700FA2F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE69B1182067B700FA2F91 /* UIKit.framework */; };
@@ -19,6 +21,9 @@
 		6EBE69C9182067B700FA2F91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EBE69B1182067B700FA2F91 /* UIKit.framework */; };
 		6EBE69D1182067B700FA2F91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE69CF182067B700FA2F91 /* InfoPlist.strings */; };
 		6EBE69D3182067B700FA2F91 /* BlogReader2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE69D2182067B700FA2F91 /* BlogReader2Tests.m */; };
+		6EBE69DD1820680600FA2F91 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE69DC1820680600FA2F91 /* MainStoryboard.storyboard */; };
+		6EBE69E018206A8400FA2F91 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE69DF18206A8400FA2F91 /* TableViewController.m */; };
+		6EBE69E318207CB400FA2F91 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE69E218207CB400FA2F91 /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E14559B182824A4006DEB79 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6E14559C182824A4006DEB79 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6E9000A11821B9D1007A4A71 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
 		6EBE69AA182067B700FA2F91 /* BlogReader2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBE69AD182067B700FA2F91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6EBE69AF182067B700FA2F91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +56,11 @@
 		6EBE69CE182067B700FA2F91 /* BlogReader2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader2Tests-Info.plist"; sourceTree = "<group>"; };
 		6EBE69D0182067B700FA2F91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EBE69D2182067B700FA2F91 /* BlogReader2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader2Tests.m; sourceTree = "<group>"; };
+		6EBE69DC1820680600FA2F91 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6EBE69DE18206A8400FA2F91 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		6EBE69DF18206A8400FA2F91 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		6EBE69E118207CB400FA2F91 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		6EBE69E218207CB400FA2F91 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +120,17 @@
 		6EBE69B3182067B700FA2F91 /* BlogReader2 */ = {
 			isa = PBXGroup;
 			children = (
+				6EBE69DE18206A8400FA2F91 /* TableViewController.h */,
+				6EBE69DF18206A8400FA2F91 /* TableViewController.m */,
 				6EBE69BC182067B700FA2F91 /* NSAppDelegate.h */,
 				6EBE69BD182067B700FA2F91 /* NSAppDelegate.m */,
 				6EBE69BF182067B700FA2F91 /* Images.xcassets */,
 				6EBE69B4182067B700FA2F91 /* Supporting Files */,
+				6EBE69DC1820680600FA2F91 /* MainStoryboard.storyboard */,
+				6EBE69E118207CB400FA2F91 /* BlogPost.h */,
+				6EBE69E218207CB400FA2F91 /* BlogPost.m */,
+				6E14559B182824A4006DEB79 /* WebViewController.h */,
+				6E14559C182824A4006DEB79 /* WebViewController.m */,
 			);
 			path = BlogReader2;
 			sourceTree = "<group>";
@@ -122,6 +142,7 @@
 				6EBE69B6182067B700FA2F91 /* InfoPlist.strings */,
 				6EBE69B9182067B700FA2F91 /* main.m */,
 				6EBE69BB182067B700FA2F91 /* BlogReader2-Prefix.pch */,
+				6E9000A11821B9D1007A4A71 /* treehouse.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9000A21821B9D1007A4A71 /* treehouse.png in Resources */,
+				6EBE69DD1820680600FA2F91 /* MainStoryboard.storyboard in Resources */,
 				6EBE69B8182067B700FA2F91 /* InfoPlist.strings in Resources */,
 				6EBE69C0182067B700FA2F91 /* Images.xcassets in Resources */,
 			);
@@ -241,7 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EBE69BA182067B700FA2F91 /* main.m in Sources */,
+				6E14559D182824A4006DEB79 /* WebViewController.m in Sources */,
+				6EBE69E018206A8400FA2F91 /* TableViewController.m in Sources */,
 				6EBE69BE182067B700FA2F91 /* NSAppDelegate.m in Sources */,
+				6EBE69E318207CB400FA2F91 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +468,7 @@
 				6EBE69D8182067B800FA2F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EBE69D9182067B800FA2F91 /* Build configuration list for PBXNativeTarget "BlogReader2Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +477,7 @@
 				6EBE69DB182067B800FA2F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
